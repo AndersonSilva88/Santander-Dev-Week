@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -24,6 +25,7 @@ registerLocaleData(localePt);
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     NgbModule,
     FormsModule,
     HttpClientModule,
